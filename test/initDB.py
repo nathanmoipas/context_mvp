@@ -43,7 +43,8 @@ def initDB():
                 content JSON
             );
         INSERT INTO Items (item_id, content)
-        VALUES (1, '{"title": "ASTERIX", "url": "fzhofehoie","duration": 12.0}');
+        VALUES (1, '{"title": "ASTERIX", "url": "fzhofehoie","duration": 12.0}'),
+        (2, '{"title": "TINTIN", "url": "gzrg","duration": 31.0}');
         
         DROP TABLE IF EXISTS Rank;
         CREATE TABLE Rank
